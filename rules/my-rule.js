@@ -1,4 +1,4 @@
 function (user, context, callback) {
-  // added via github webhook test
+  console.log('Added via Github deploy ext');
   callback(null, user, context);
 }
